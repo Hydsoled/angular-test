@@ -1,0 +1,14 @@
+h1{
+  background-color: blue;
+}
+
+.myClass:hover{
+  animation-duration: 1.5s;
+  animation-name: h1Hover;
+  cursor: pointer;
+}
+
+@keyframes h1Hover {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
